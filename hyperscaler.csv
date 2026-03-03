@@ -1,0 +1,17 @@
+Usage Record Type,Account Num,Quantity,UOM,Start Date-Time,End Date-Time,Line Item Type,ProductCode,UsageType,Destination,ProductType,Resource ,Entity,Location,pricingUnit,Currency,Tag
+Storage,GEN089D2,334969582.7,BytesHours,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,Storage,TimedStorage-BytesHrs,,Standard,txn_history:us_west_1:backlog,Hyperscalar IaaS,us-west,Gb-Mo,USD,serviceInstanceId=6d55f6c787ab
+Storage,GEN089D2,144344148.4,BytesHours,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,Storage,TimedStorage-BytesHrs,,Cool,usage:us_west_1:history,Hyperscalar IaaS,us-west,Gb-Mo,USD,
+Storage,ARG184EA,94981432.1,BytesHours,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,Storage,TimedStorage-BytesHrs,,Frozen,usage:us_central_2:archive,Hyperscalar IaaS,us-central,Gb-Mo,USD,
+Compute Service,GEN089D2,176.8,Seconds,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,CloudCompute,t3.small-boxUsage,,Standard,usage:us_east_1:preload_txns,Hyperscalar IaaS,us-east,Hours,USD,order_no=6676TRE3-01
+Compute Service,GEN089D2,857,Seconds,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,CloudCompute,m1.tiny-boxUsage,,Standard,usage:us_centrl_1:batch_run,Hyperscalar IaaS,us-central,Hours,USD,
+API Service,GEN089D2,57,GBSecs,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,ServerlessCompute,func-secs-GB,,Standard,usage:mx-west:procedure,Hyperscalar IaaS,mx-west,Gb-Secs,USD,
+API Service,GEN089D2,57,GBSecs,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,ServerlessCompute,func-secs-GB,,Standard,usage:mx-west:procedure,Hyperscalar IaaS,mx-west,Gb-Secs,USD,
+API Service,GEN089D2,49,GBSecs,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,ServerlessCompute,func-secs-GB,,Standard,usage:ca-central:txn_host,Hyperscalar IaaS,ca-central,Gb-Secs,USD,
+Data Transfer,GEN089D2,430945779,Bytes,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,Storage,DataTransferIn,Public IP,Standard,usage:us_east_2:txns,Hyperscalar IaaS,us-east,Gb,USD,serviceInstanceId=6d55f6c787ab
+Data Transfer,GEN089D2,146187659.6,Bytes,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,Storage,DataTransferOut,InterRegion,Standard,usage:us_east_2:txns,Hyperscalar IaaS,us-east,Gb,USD,serviceInstanceId=6d55f6c787ab
+Data Transfer,GEN089D2,37239144.5,Bytes,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,CloudCompute,DataTransferOut,InterRegion,Standard,usage:us_east_1:preload_txns,Hyperscalar IaaS,us-east,Gb,USD,
+Data Transfer,GEN089D2,158443572,Bytes,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,CloudCompute,DataTransferOut,Public IP,Standard,usage:us_east_1:preload_txns,Hyperscalar IaaS,us-east,Gb,USD,
+Relational Data Base,GEN089D2,94530616.6,BytesHours,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,RDB,TimedStorage-BytesHrs,,On-Demand,usage:eu_east_1:inventory,Hyperscalar IaaS,eu-east,Gb-Mo,EUR,
+Relational Data Base,GEN089D2,205826348.9,Bytes,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,RDB,DataTransferIn,Public IP,On-Demand,usage:eu_east_1:inventory,Hyperscalar IaaS,eu-east,Gb,EUR,
+Relational Data Base,GEN089D2,93,Seconds,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,RDB,t3.small-boxUsage,,Standard,usage:eu_east_1:inventory,Hyperscalar IaaS,eu-east,Gb,EUR,
+API Service,GEN089D2,64,GBSecs,2026-03-02T18:00:00.000Z,2026-03-02T19:00:00.000Z,Usage,ServerlessCompute,func-secs-GB,,Standard,usage:ca-central:txn_host,Hyperscalar IaaS,ca-central,Gb-Secs,USD,
