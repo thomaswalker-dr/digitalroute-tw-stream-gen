@@ -1,0 +1,8 @@
+﻿Field name,Type,Format
+account_id,alphanumeric,user@domain.com
+usage_qty,numeric,343443
+usage_type,alphanumeric,Streaming Service
+product_name,alphanumeric,Gold Streaming Service
+UOM,alphanumeric,Viewing units
+period_start,date-time,2026-01-01T00:00:00Z
+period_end,date-time,2026-01-31T23:59:59Z
