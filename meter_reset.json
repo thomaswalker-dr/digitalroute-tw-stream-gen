@@ -1,0 +1,27 @@
+{
+  "id":"34ce5f49-a508-46bf-a84b-ffe9b29cc635",
+  "meterTypeId":"6bbf8696-8403-44d0-a39f-ab384be6db93",
+  "meterTypeName":"Streaming Service",
+  "userId":"gumby@cartoons.edu",
+  "meterKey":"960c5808-bdc6-476e-b720-ca239f3061a3",
+  "value":0,
+  "unit":"Viewing Credits",
+  "periodStart":"2025-11-10T14:16:12.852Z",
+  "periodEnd":"2025-11-30T23:00:00.000Z",
+  "groupBreakdowns":[],
+  "capacity":100,
+  "thresholds":
+    [{"name":"Notify customer - default 50% of plan","capacityPercentage":50,"customFields":{"actionType":"Customer Notification","template":"notifyPctUnitsUsed"}},
+     {"name":"Notify customer - default 75% of plan","capacityPercentage":75,"customFields":{"actionType":"Customer Notification","template":"notifyPctUnitsUsed"}},
+     {"name":"One Click Upgrade Notification at 95% of Plan","capacityPercentage":95,"customFields":{"actionType":"Customer Notification","template":"oneclickUpgrade"}},
+     {"name":"Notify customer - default 100% of plan","capacityPercentage":100,"customFields":{"actionType":"Customer Notification","template":"notifyPctUnitsUsed"}},
+     {"name":"Restrict customer to free content","absoluteValue":150,"customFields":{"actionType":"Provisioning Action","template":"suspendService"}}
+   ],
+  "carryFirst":{},
+  "carryLast":{},
+  "customFields":{"userId":"gumby@cartoons.edu","freeUnits":100,"costPerUnit":0.99,"phone":"8675309","communicationPreference":"Email only","productName":"Streaming - Bronze","name":"gumby","email":"gumby@cartoons.edu"},
+  "deleteOnReset":false,
+  "timezone":"Europe/Berlin",
+  "createdAt":"2025-11-10T14:16:12.852Z",
+  "updatedAt":"2025-11-10T14:16:12.852Z"
+}

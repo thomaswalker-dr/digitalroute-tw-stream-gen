@@ -1,0 +1,1173 @@
+{
+  "results": [
+    {
+      "id": "95aec344-b07b-4ac6-af47-0fe1c5aa97dd",
+      "meterTypeId": "6bbf8696-8403-44d0-a39f-ab384be6db93",
+      "meterTypeName": "Streaming Service",
+      "userId": "mj@music.com",
+      "meterKey": "960c5808-bdc6-476e-b720-ca239f3061a3",
+      "value": 51,
+      "unit": "Viewing Credits",
+      "periodStart": "2025-11-30T23:00:00.000Z",
+      "periodEnd": "2026-03-31T22:00:00.000Z",
+      "groupBreakdowns": [
+            {
+                  "name": "Genres",
+                  "groups": [
+                        {
+                              "key": "Genres:Comedy",
+                              "fields": {
+                                    "Genres": "Comedy"
+                                  },
+                              "value": 9,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Fantasy, Horror",
+                              "fields": {
+                                    "Genres": "Comedy, Fantasy, Horror"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Crime, Drama, Music",
+                              "fields": {
+                                    "Genres": "Crime, Drama, Music"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Adventure, Comedy, Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Comedy, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Comedy, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Comedy, Drama, Horror",
+                              "fields": {
+                                    "Genres": "Action, Comedy, Drama, Horror"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Biography, Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Biography, Comedy, Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Drama, Fantasy",
+                              "fields": {
+                                    "Genres": "Adventure, Drama, Fantasy"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, War",
+                              "fields": {
+                                    "Genres": "Comedy, War"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Horror, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Comedy, Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Fantasy",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Fantasy"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Crime, Thriller",
+                              "fields": {
+                                    "Genres": "Action, Crime, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Fantasy, Horror, Mystery",
+                              "fields": {
+                                    "Genres": "Comedy, Fantasy, Horror, Mystery"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        }
+                  ]
+            }
+      ],
+      "capacity": 100,
+      "thresholds": [
+            {
+                  "name": "Notify customer - default 50% of plan",
+                  "capacityPercentage": 50,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  },
+                  "reachedAt": "2026-03-08T13:59:41.372Z"
+            },
+            {
+                  "name": "Notify customer - default 75% of plan",
+                  "capacityPercentage": 75,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  }
+            },
+            {
+                  "name": "One Click Upgrade Notification at 95% of Plan",
+                  "capacityPercentage": 95,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "oneclickUpgrade"
+                  }
+            },
+            {
+                  "name": "Notify customer - default 100% of plan",
+                  "capacityPercentage": 100,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  }
+            },
+            {
+                  "name": "Restrict customer to free content",
+                  "absoluteValue": 150,
+                  "customFields": {
+                        "actionType": "Provisioning Action",
+                        "template": "suspendService"
+                  }
+            }
+      ],
+      "carryFirst": {},
+      "carryLast": {},
+      "customFields": {
+            "userId": "mj@music.com",
+            "freeUnits": 100,
+            "costPerUnit": 0.99,
+            "phone": "8675309",
+            "communicationPreference": "Email only",
+            "productName": "Streaming - Bronze",
+            "name": "mj",
+            "email": "thomas.walker@digitalroute.com"
+      },
+      "deleteOnReset": false,
+      "timezone": "Europe/Berlin",
+      "createdAt": "2025-11-10T14:16:12.148Z",
+      "updatedAt": "2026-03-08T13:59:06.268Z",
+      "thresholdReached": {
+            "name": "Notify customer - default 50% of plan",
+            "capacityPercentage": 50,
+            "customFields": {
+                  "actionType": "Customer Notification",
+                  "template": "notifyPctUnitsUsed"
+            },
+            "reachedAt": "2026-03-08T13:59:41.372Z"
+      }
+},
+    {
+      "id": "95aec344-b07b-4ac6-af47-0fe1c5aa97dd",
+      "meterTypeId": "6bbf8696-8403-44d0-a39f-ab384be6db93",
+      "meterTypeName": "Streaming Service",
+      "userId": "mj@music.com",
+      "meterKey": "960c5808-bdc6-476e-b720-ca239f3061a3",
+      "value": 75,
+      "unit": "Viewing Credits",
+      "periodStart": "2025-11-30T23:00:00.000Z",
+      "periodEnd": "2026-03-31T22:00:00.000Z",
+      "groupBreakdowns": [
+            {
+                  "name": "Genres",
+                  "groups": [
+                        {
+                              "key": "Genres:Comedy",
+                              "fields": {
+                                    "Genres": "Comedy"
+                                  },
+                              "value": 12,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Fantasy, Horror",
+                              "fields": {
+                                    "Genres": "Comedy, Fantasy, Horror"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Crime, Drama, Music",
+                              "fields": {
+                                    "Genres": "Crime, Drama, Music"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Adventure, Comedy, Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Comedy, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Comedy, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Comedy, Drama, Horror",
+                              "fields": {
+                                    "Genres": "Action, Comedy, Drama, Horror"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Biography, Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Biography, Comedy, Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Drama, Fantasy",
+                              "fields": {
+                                    "Genres": "Adventure, Drama, Fantasy"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, War",
+                              "fields": {
+                                    "Genres": "Comedy, War"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Horror, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Comedy, Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Fantasy",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Fantasy"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Crime, Thriller",
+                              "fields": {
+                                    "Genres": "Action, Crime, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Fantasy, Horror, Mystery",
+                              "fields": {
+                                    "Genres": "Comedy, Fantasy, Horror, Mystery"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Drama, Music",
+                              "fields": {
+                                    "Genres": "Comedy, Drama, Music"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama",
+                              "fields": {
+                                    "Genres": "Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror",
+                              "fields": {
+                                    "Genres": "Horror"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Drama, Fantasy",
+                              "fields": {
+                                    "Genres": "Comedy, Drama, Fantasy"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Comedy, Horror, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Horror",
+                              "fields": {
+                                    "Genres": "Adventure, Horror"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        }
+                  ]
+            }
+      ],
+      "capacity": 100,
+      "thresholds": [
+            {
+                  "name": "Notify customer - default 50% of plan",
+                  "capacityPercentage": 50,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  },
+                  "reachedAt": "2026-03-08T13:59:41.372Z"
+            },
+            {
+                  "name": "Notify customer - default 75% of plan",
+                  "capacityPercentage": 75,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  },
+                  "reachedAt": "2026-03-08T13:59:41.373Z"
+            },
+            {
+                  "name": "One Click Upgrade Notification at 95% of Plan",
+                  "capacityPercentage": 95,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "oneclickUpgrade"
+                  }
+            },
+            {
+                  "name": "Notify customer - default 100% of plan",
+                  "capacityPercentage": 100,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  }
+            },
+            {
+                  "name": "Restrict customer to free content",
+                  "absoluteValue": 150,
+                  "customFields": {
+                        "actionType": "Provisioning Action",
+                        "template": "suspendService"
+                  }
+            }
+      ],
+      "carryFirst": {},
+      "carryLast": {},
+      "customFields": {
+            "userId": "mj@music.com",
+            "freeUnits": 100,
+            "costPerUnit": 0.99,
+            "phone": "8675309",
+            "communicationPreference": "Email only",
+            "productName": "Streaming - Bronze",
+            "name": "mj",
+            "email": "thomas.walker@digitalroute.com"
+      },
+      "deleteOnReset": false,
+      "timezone": "Europe/Berlin",
+      "createdAt": "2025-11-10T14:16:12.148Z",
+      "updatedAt": "2026-03-08T13:59:06.268Z",
+      "thresholdReached": {
+            "name": "Notify customer - default 75% of plan",
+            "capacityPercentage": 75,
+            "customFields": {
+                  "actionType": "Customer Notification",
+                  "template": "notifyPctUnitsUsed"
+            },
+            "reachedAt": "2026-03-08T13:59:41.373Z"
+      }
+},
+    {
+      "id": "a5781920-d5e9-4017-808e-b2cc0a2c27b9",
+      "meterTypeId": "6bbf8696-8403-44d0-a39f-ab384be6db93",
+      "meterTypeName": "Streaming Service",
+      "userId": "sam.altman@chatgpt.com",
+      "meterKey": "960c5808-bdc6-476e-b720-ca239f3061a3",
+      "value": 176.5,
+      "unit": "Viewing Credits",
+      "periodStart": "2025-11-30T23:00:00.000Z",
+      "periodEnd": "2026-03-31T22:00:00.000Z",
+      "groupBreakdowns": [
+            {
+                  "name": "Genres",
+                  "groups": [
+                        {
+                              "key": "Genres:Drama, Horror",
+                              "fields": {
+                                    "Genres": "Drama, Horror"
+                                  },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama",
+                              "fields": {
+                                    "Genres": "Drama"
+                              },
+                              "value": 12,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Crime, Thriller",
+                              "fields": {
+                                    "Genres": "Action, Crime, Thriller"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Horror, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Comedy, Sci-Fi, Sport",
+                              "fields": {
+                                    "Genres": "Action, Comedy, Sci-Fi, Sport"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy",
+                              "fields": {
+                                    "Genres": "Comedy"
+                              },
+                              "value": 6.5,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Fantasy, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Fantasy, Sci-Fi"
+                              },
+                              "value": 1,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Romance",
+                              "fields": {
+                                    "Genres": "Comedy, Romance"
+                              },
+                              "value": 4,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Comedy, Horror, Sci-Fi"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Comedy, Family, Fantasy, Romance",
+                              "fields": {
+                                    "Genres": "Adventure, Comedy, Family, Fantasy, Romance"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror, Mystery",
+                              "fields": {
+                                    "Genres": "Horror, Mystery"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Western",
+                              "fields": {
+                                    "Genres": "Drama, Western"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Drama, Music",
+                              "fields": {
+                                    "Genres": "Comedy, Drama, Music"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror, Thriller",
+                              "fields": {
+                                    "Genres": "Horror, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Adventure, Comedy, Drama"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Fantasy, Romance",
+                              "fields": {
+                                    "Genres": "Adventure, Fantasy, Romance"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Family, Fantasy, Musical",
+                              "fields": {
+                                    "Genres": "Adventure, Family, Fantasy, Musical"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Mystery, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Drama, Mystery, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Musical",
+                              "fields": {
+                                    "Genres": "Comedy, Musical"
+                              },
+                              "value": 9,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Horror",
+                              "fields": {
+                                    "Genres": "Comedy, Horror"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Crime, Music",
+                              "fields": {
+                                    "Genres": "Comedy, Crime, Music"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Crime, Drama, Thriller",
+                              "fields": {
+                                    "Genres": "Action, Crime, Drama, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Horror, Thriller, War",
+                              "fields": {
+                                    "Genres": "Drama, Horror, Thriller, War"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Horror, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror, Sci-Fi, Thriller",
+                              "fields": {
+                                    "Genres": "Horror, Sci-Fi, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror",
+                              "fields": {
+                                    "Genres": "Horror"
+                              },
+                              "value": 12,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, War",
+                              "fields": {
+                                    "Genres": "Comedy, War"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Drama, Fantasy",
+                              "fields": {
+                                    "Genres": "Adventure, Drama, Fantasy"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Drama",
+                              "fields": {
+                                    "Genres": "Comedy, Drama"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Drama, Mystery",
+                              "fields": {
+                                    "Genres": "Action, Drama, Mystery"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Crime, Horror",
+                              "fields": {
+                                    "Genres": "Action, Crime, Horror"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Music",
+                              "fields": {
+                                    "Genres": "Comedy, Music"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Documentary, Sport",
+                              "fields": {
+                                    "Genres": "Documentary, Sport"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror, Mystery, Sci-Fi, Thriller",
+                              "fields": {
+                                    "Genres": "Horror, Mystery, Sci-Fi, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Mystery, Sci-Fi, Thriller",
+                              "fields": {
+                                    "Genres": "Drama, Mystery, Sci-Fi, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Romance, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Drama, Romance, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Comedy, Music, Romance, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Adventure, Comedy, Music, Romance, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Crime, Drama, Fantasy, Horror, Thriller",
+                              "fields": {
+                                    "Genres": "Action, Crime, Drama, Fantasy, Horror, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Family, Fantasy, Mystery",
+                              "fields": {
+                                    "Genres": "Adventure, Family, Fantasy, Mystery"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Biography, Crime, Drama, Horror, Thriller",
+                              "fields": {
+                                    "Genres": "Biography, Crime, Drama, Horror, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Sci-Fi, Thriller",
+                              "fields": {
+                                    "Genres": "Action, Sci-Fi, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Adventure, Comedy, Family, Fantasy, Musical",
+                              "fields": {
+                                    "Genres": "Adventure, Comedy, Family, Fantasy, Musical"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Horror, Mystery",
+                              "fields": {
+                                    "Genres": "Drama, Horror, Mystery"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        }
+                  ]
+            }
+      ],
+      "capacity": 250,
+      "thresholds": [
+            {
+                  "name": "Notify customer - default 70% of plan",
+                  "capacityPercentage": 70,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  },
+                  "reachedAt": "2026-03-08T13:59:41.374Z"
+            },
+            {
+                  "name": "Notify customer - default 100% of plan",
+                  "capacityPercentage": 100,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  }
+            },
+            {
+                  "name": "One click upgrade",
+                  "capacityPercentage": 105,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "oneclickUpgrade"
+                  }
+            },
+            {
+                  "name": "Restrict to free content only at 300 credits",
+                  "absoluteValue": 300,
+                  "customFields": {
+                        "actionType": "Provisioning Action",
+                        "template": "suspendService"
+                  }
+            }
+      ],
+      "carryFirst": {},
+      "carryLast": {},
+      "customFields": {
+            "userId": "sam.altman@chatgpt.com",
+            "freeUnits": 250,
+            "costPerUnit": 0.75,
+            "phone": "+13035894372",
+            "communicationPreference": "Text only",
+            "productName": "Streaming - Silver",
+            "name": "sam altman",
+            "email": "sam.altman@chatgpt.com"
+      },
+      "deleteOnReset": false,
+      "timezone": "Europe/Berlin",
+      "createdAt": "2025-11-10T14:16:12.407Z",
+      "updatedAt": "2026-03-08T13:59:11.054Z",
+      "thresholdReached": {
+            "name": "Notify customer - default 70% of plan",
+            "capacityPercentage": 70,
+            "customFields": {
+                  "actionType": "Customer Notification",
+                  "template": "notifyPctUnitsUsed"
+            },
+            "reachedAt": "2026-03-08T13:59:41.374Z"
+      }
+},
+    {
+      "id": "cea884c3-05e7-4d0f-a9df-a83bbbac56de",
+      "meterTypeId": "6bbf8696-8403-44d0-a39f-ab384be6db93",
+      "meterTypeName": "Streaming Service",
+      "userId": "rocky@rocky.com",
+      "meterKey": "960c5808-bdc6-476e-b720-ca239f3061a3",
+      "value": 51,
+      "unit": "Viewing Credits",
+      "periodStart": "2025-11-30T23:00:00.000Z",
+      "periodEnd": "2026-03-31T22:00:00.000Z",
+      "groupBreakdowns": [
+            {
+                  "name": "Genres",
+                  "groups": [
+                        {
+                              "key": "Genres:Action, Adventure, Romance, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Romance, Sci-Fi"
+                                  },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Mystery, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Drama, Mystery, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy",
+                              "fields": {
+                                    "Genres": "Comedy"
+                              },
+                              "value": 9,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Horror",
+                              "fields": {
+                                    "Genres": "Horror"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Horror, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Crime, Thriller",
+                              "fields": {
+                                    "Genres": "Action, Crime, Thriller"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Adventure, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Adventure, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Drama, Thriller",
+                              "fields": {
+                                    "Genres": "Drama, Thriller"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Horror",
+                              "fields": {
+                                    "Genres": "Comedy, Horror"
+                              },
+                              "value": 6,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Music",
+                              "fields": {
+                                    "Genres": "Comedy, Music"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Comedy, Musical",
+                              "fields": {
+                                    "Genres": "Comedy, Musical"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Crime, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Crime, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        },
+                        {
+                              "key": "Genres:Action, Comedy, Horror, Sci-Fi",
+                              "fields": {
+                                    "Genres": "Action, Comedy, Horror, Sci-Fi"
+                              },
+                              "value": 3,
+                              "carryFirst": {},
+                              "carryLast": {}
+                        }
+                  ]
+            }
+      ],
+      "capacity": 100,
+      "thresholds": [
+            {
+                  "name": "Notify customer - default 50% of plan",
+                  "capacityPercentage": 50,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  },
+                  "reachedAt": "2026-03-08T13:59:41.374Z"
+            },
+            {
+                  "name": "Notify customer - default 75% of plan",
+                  "capacityPercentage": 75,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  }
+            },
+            {
+                  "name": "One Click Upgrade Notification at 95% of Plan",
+                  "capacityPercentage": 95,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "oneclickUpgrade"
+                  }
+            },
+            {
+                  "name": "Notify customer - default 100% of plan",
+                  "capacityPercentage": 100,
+                  "customFields": {
+                        "actionType": "Customer Notification",
+                        "template": "notifyPctUnitsUsed"
+                  }
+            },
+            {
+                  "name": "Restrict customer to free content",
+                  "absoluteValue": 150,
+                  "customFields": {
+                        "actionType": "Provisioning Action",
+                        "template": "suspendService"
+                  }
+            }
+      ],
+      "carryFirst": {},
+      "carryLast": {},
+      "customFields": {
+            "userId": "rocky@rocky.com",
+            "freeUnits": 100,
+            "costPerUnit": 0.99,
+            "phone": "8675309",
+            "communicationPreference": "Email only",
+            "productName": "Streaming - Bronze",
+            "name": "rocky",
+            "email": "rocky@rocky.com"
+      },
+      "deleteOnReset": false,
+      "timezone": "Europe/Berlin",
+      "createdAt": "2025-11-10T14:16:11.546Z",
+      "updatedAt": "2026-03-08T13:59:06.267Z",
+      "thresholdReached": {
+            "name": "Notify customer - default 50% of plan",
+            "capacityPercentage": 50,
+            "customFields": {
+                  "actionType": "Customer Notification",
+                  "template": "notifyPctUnitsUsed"
+            },
+            "reachedAt": "2026-03-08T13:59:41.374Z"
+      }
+}
+  ]
+}
