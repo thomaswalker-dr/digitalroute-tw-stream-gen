@@ -1,116 +1,126 @@
 type,subscriberId,account,startDateTime,watchedTime,contentId,title,channel,endDateTime
-Youtube,mj@music.com,5432,2026-02-12T05:49:06.000Z,1080,900005,Top 10 Hidden Gems in Tokyo,Tom’s Travels,2026-02-12T06:19:16.000Z
-Youtube,mj@music.com,5432,2026-02-12T13:28:10.000Z,985,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T13:44:35.000Z
-Youtube,mj@music.com,5432,2026-02-12T09:54:53.000Z,596,900012,Cooking with Spices: A Beginner’s Guide,Spiced Up Cooking,2026-02-12T10:13:51.000Z
-Youtube,mj@music.com,5432,2026-02-12T07:47:16.000Z,435,900043,Yoga for Better Sleep,Sleep Wellness,2026-02-12T08:03:04.000Z
-Youtube,mj@music.com,5432,2026-02-12T03:20:44.000Z,605,900004,The Science of Black Holes Explained Simply,Science Simplified,2026-02-12T03:30:49.000Z
-Youtube,mj@music.com,5432,2026-02-12T23:17:03.000Z,639,900027,Fun Science Experiments for Kids,Kids Science Club,2026-02-12T23:27:42.000Z
-Youtube,mj@music.com,5432,2026-02-12T01:13:15.000Z,742,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T01:36:19.000Z
-Youtube,mj@music.com,5432,2026-02-12T13:29:02.000Z,950,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T13:44:52.000Z
-Youtube,mj@music.com,5432,2026-02-12T23:08:26.000Z,886,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T23:30:07.000Z
-Youtube,mj@music.com,5432,2026-02-12T09:14:15.000Z,855,900005,Top 10 Hidden Gems in Tokyo,Tom’s Travels,2026-02-12T09:28:30.000Z
-Youtube,mj@music.com,5432,2026-02-12T13:34:03.000Z,1126,900023,How to Write a Bestselling Novel,Alice’s Writing Room,2026-02-12T13:52:49.000Z
-Youtube,mj@music.com,5432,2026-02-12T09:30:58.000Z,918,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T09:46:16.000Z
-Youtube,mj@music.com,5432,2026-02-12T19:37:54.000Z,1111,900005,Top 10 Hidden Gems in Tokyo,Tom’s Travels,2026-02-12T19:56:25.000Z
-Youtube,mj@music.com,5432,2026-02-12T13:19:18.000Z,1030,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T13:36:28.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T05:46:48.000Z,578,900030,Learning Guitar: Beginner’s Tutorial,Gary’s Guitar Lessons,2026-02-12T05:56:26.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T11:03:52.000Z,760,900020,How to Master Public Speaking,Public Speaking Pro,2026-02-12T11:16:32.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T08:45:03.000Z,1024,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T09:02:07.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T14:18:19.000Z,294,900008,5 Minute Yoga Routine for Beginners,Yoga with Yvonne,2026-02-12T14:25:24.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T07:51:36.000Z,933,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T08:07:09.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T14:18:26.000Z,773,900042,Gardening Tips for Small Spaces,Urban Gardening,2026-02-12T14:31:19.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T13:11:52.000Z,646,900050,Learning to Cook Asian Cuisine,Amy’s Asian Kitchen,2026-02-12T13:26:32.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T20:03:14.000Z,2005,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T21:01:38.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T15:56:34.000Z,830,900045,Tips for Remote Work Efficiency,Remote Work Solutions,2026-02-12T16:10:24.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T14:05:05.000Z,881,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T14:27:30.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T18:50:49.000Z,630,900028,Top 10 Must-Read Books of the Year,Betty’s Book Picks,2026-02-12T19:12:06.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T22:27:12.000Z,1165,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T22:46:37.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T15:57:23.000Z,1058,900021,Vegan Cooking: Delicious Recipes,Valerie’s Vegan Kitchen,2026-02-12T16:25:08.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T12:20:03.000Z,2238,900013,The Evolution of Video Games – A Historical Overview,Gaming History,2026-02-12T12:57:21.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T08:17:22.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T08:51:00.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T08:40:33.000Z,828,900002,How to Survive a Zombie Apocalypse – Top 10 Tips,Survival Central,2026-02-12T08:54:21.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T16:20:13.000Z,956,900018,Building a Custom PC for Gaming,PC Builds,2026-02-12T16:36:09.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T16:54:09.000Z,512,900047,The Ultimate Guide to Coffee Brewing,Carl’s Coffee Corner,2026-02-12T17:02:41.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T14:43:58.000Z,636,900041,The Evolution of Internet Trends,Trend Analysis,2026-02-12T14:54:34.000Z
-Youtube,sam.altman@chatgpt.com,5432,2026-02-12T08:18:00.000Z,1097,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T08:36:17.000Z
-Youtube,rocky@rocky.com,5432,2026-02-12T19:14:40.000Z,2005,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T20:02:59.000Z
-Youtube,rocky@rocky.com,5432,2026-02-12T09:40:35.000Z,960,900011,Ultimate Guide to Street Photography,Phil’s Photography,2026-02-12T09:56:35.000Z
-Youtube,rocky@rocky.com,5432,2026-02-12T05:42:04.000Z,1400,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T06:05:24.000Z
-Youtube,rocky@rocky.com,5432,2026-02-12T14:36:33.000Z,1868,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T15:38:11.000Z
-Youtube,rocky@rocky.com,5432,2026-02-12T18:13:52.000Z,330,900008,5 Minute Yoga Routine for Beginners,Yoga with Yvonne,2026-02-12T18:19:22.000Z
-Youtube,rocky@rocky.com,5432,2026-02-12T17:31:55.000Z,693,900021,Vegan Cooking: Delicious Recipes,Valerie’s Vegan Kitchen,2026-02-12T17:43:28.000Z
-Youtube,rocky@rocky.com,5432,2026-02-12T10:52:45.000Z,1049,900046,Top 10 Space Missions That Changed History,Space Mission Central,2026-02-12T11:10:14.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:34:33.000Z,817,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T22:48:10.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T10:29:32.000Z,1397,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T11:15:06.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:14:51.000Z,764,900041,The Evolution of Internet Trends,Trend Analysis,2026-02-12T09:42:55.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T15:14:42.000Z,800,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T15:28:02.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:58:27.000Z,675,900012,Cooking with Spices: A Beginner’s Guide,Spiced Up Cooking,2026-02-12T21:09:42.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T14:43:56.000Z,965,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T15:00:01.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:15:21.000Z,999,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T19:32:00.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:53:13.000Z,508,900022,The Art of Minimalism: Simplify Your Life,Simple Living,2026-02-12T08:01:41.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T13:27:03.000Z,338,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T13:32:41.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:37:10.000Z,365,900030,Learning Guitar: Beginner’s Tutorial,Gary’s Guitar Lessons,2026-02-12T08:43:15.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T17:10:43.000Z,576,900030,Learning Guitar: Beginner’s Tutorial,Gary’s Guitar Lessons,2026-02-12T17:20:19.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:08:54.000Z,2520,900009,The Best of 80s Music – A Nostalgic Mix,Retro Hits,2026-02-12T07:50:54.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T17:31:35.000Z,622,900042,Gardening Tips for Small Spaces,Urban Gardening,2026-02-12T17:47:54.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T10:37:48.000Z,864,900042,Gardening Tips for Small Spaces,Urban Gardening,2026-02-12T10:52:12.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T23:24:06.000Z,886,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T23:38:52.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:53:07.000Z,1871,900031,Exploring Ancient Ruins: A Documentary,Ancient Explorations,2026-02-12T13:42:56.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:50:03.000Z,1284,900040,Exploring National Parks: The Ultimate Guide,National Parks Explorer,2026-02-12T10:11:27.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T23:05:20.000Z,1095,900029,Ultimate Guide to Fitness Training,Fiona’s Fitness,2026-02-12T23:43:43.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:28:51.000Z,630,900028,Top 10 Must-Read Books of the Year,Betty’s Book Picks,2026-02-12T22:46:18.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T03:57:38.000Z,530,900025,A Guide to Mindfulness and Meditation,Zen Zone,2026-02-12T04:06:28.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:37:25.000Z,1130,900046,Top 10 Space Missions That Changed History,Space Mission Central,2026-02-12T08:56:15.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T15:58:08.000Z,1075,900021,Vegan Cooking: Delicious Recipes,Valerie’s Vegan Kitchen,2026-02-12T16:16:03.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T04:54:25.000Z,1327,900024,DIY Solar Panels for Your Home,Green Living,2026-02-12T05:16:32.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T05:29:47.000Z,1114,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T06:07:26.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:22:35.000Z,1146,900048,How to Build a Personal Brand,Bella’s Brand Building,2026-02-12T08:41:41.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:01:51.000Z,733,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T19:14:04.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:13:49.000Z,729,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T09:25:58.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T13:24:08.000Z,978,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T13:40:26.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:51:11.000Z,2666,900009,The Best of 80s Music – A Nostalgic Mix,Retro Hits,2026-02-12T13:35:37.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:15:45.000Z,1183,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T09:35:28.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:53:26.000Z,597,900020,How to Master Public Speaking,Public Speaking Pro,2026-02-12T21:03:23.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:24:14.000Z,965,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T12:51:23.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:08:12.000Z,765,900016,Beginner’s Guide to Digital Painting,Artful Creations,2026-02-12T07:20:57.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T13:05:45.000Z,870,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T13:20:15.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:57:47.000Z,1260,900029,Ultimate Guide to Fitness Training,Fiona’s Fitness,2026-02-12T10:31:26.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T03:40:50.000Z,861,900002,How to Survive a Zombie Apocalypse – Top 10 Tips,Survival Central,2026-02-12T04:05:19.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T04:18:56.000Z,758,900020,How to Master Public Speaking,Public Speaking Pro,2026-02-12T04:37:20.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T18:48:37.000Z,1909,900031,Exploring Ancient Ruins: A Documentary,Ancient Explorations,2026-02-12T19:20:26.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T01:22:15.000Z,1165,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T01:44:30.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:30:32.000Z,2691,900009,The Best of 80s Music – A Nostalgic Mix,Retro Hits,2026-02-12T08:50:21.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:37:07.000Z,1104,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T21:12:01.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:22:36.000Z,679,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T22:33:55.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T02:41:48.000Z,320,900014,10 Amazing Facts About Space,Alex’s Universe,2026-02-12T02:49:33.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:00:23.000Z,297,900008,5 Minute Yoga Routine for Beginners,Yoga with Yvonne,2026-02-12T22:08:19.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:38:16.000Z,870,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T19:59:00.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:19:02.000Z,1084,900003,Exploring the Haunted Mansion of Oldtown,Ghost Adventures,2026-02-12T12:55:57.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T00:46:59.000Z,1036,900018,Building a Custom PC for Gaming,PC Builds,2026-02-12T01:04:15.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T10:37:14.000Z,754,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T10:49:48.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T06:57:06.000Z,988,900015,Daily Vlog: A Week in My Life,Vanessa’s Vlogs,2026-02-12T07:15:58.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T14:45:41.000Z,1030,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T15:16:03.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T01:54:17.000Z,1353,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T02:35:14.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:15:49.000Z,1375,900017,Historical Mysteries: The Lost City of Atlantis,Mystery History,2026-02-12T19:46:23.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T00:52:32.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T01:12:32.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:22:38.000Z,629,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T09:43:30.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:49:41.000Z,511,900047,The Ultimate Guide to Coffee Brewing,Carl’s Coffee Corner,2026-02-12T08:58:12.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T06:58:14.000Z,442,900022,The Art of Minimalism: Simplify Your Life,Simple Living,2026-02-12T07:13:46.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T18:43:10.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T19:16:35.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:12:34.000Z,854,900011,Ultimate Guide to Street Photography,Phil’s Photography,2026-02-12T20:26:48.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T00:23:58.000Z,1314,900024,DIY Solar Panels for Your Home,Green Living,2026-02-12T00:45:52.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T15:29:27.000Z,1030,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T15:46:37.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:06:25.000Z,768,900011,Ultimate Guide to Street Photography,Phil’s Photography,2026-02-12T07:19:13.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T05:44:23.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T06:04:23.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:19:01.000Z,664,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T20:30:05.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T17:36:30.000Z,815,900025,A Guide to Mindfulness and Meditation,Zen Zone,2026-02-12T17:50:05.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T02:18:10.000Z,1321,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T02:40:11.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:44:27.000Z,1208,900024,DIY Solar Panels for Your Home,Green Living,2026-02-12T10:04:35.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T02:45:29.000Z,695,900037,Learning a New Language: Tips and Tricks,Polyglot Practices,2026-02-12T03:02:15.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T18:21:46.000Z,1105,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T18:40:11.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T03:17:31.000Z,587,900004,The Science of Black Holes Explained Simply,Science Simplified,2026-02-12T03:33:46.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T16:32:26.000Z,697,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T16:56:24.000Z
-Youtube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T04:51:05.000Z,1298,900046,Top 10 Space Missions That Changed History,Space Mission Central,2026-02-12T05:12:43.000Z
+CultTube,mj@music.com,5432,2026-02-12T05:49:06.000Z,1080,900005,Top 10 Hidden Gems in Tokyo,Tom’s Travels,2026-02-12T06:19:16.000Z
+Show,sam.altman@chatgpt.com,5432,2026-02-12T01:30:55.000Z,1260,100157,Friends - The One with the Butt,,2026-02-12T02:07:11.000Z
+Show,sam.altman@chatgpt.com,5432,2026-02-12T21:07:46.000Z,2640,100433,Lost - Hearts and Minds,,2026-02-12T21:51:46.000Z
+Show,sam.altman@chatgpt.com,5432,2026-02-12T02:35:50.000Z,2040,100408,Game of Thrones - Dragonstone,,2026-02-12T03:09:50.000Z
+Movie,mj@music.com,5432,2026-02-12T08:48:38.000Z,6360,700215,Young Frankenstein,,2026-02-12T10:34:38.000Z
+Movie,mj@music.com,5432,2026-02-12T06:19:28.000Z,6420,700302,Withnail & I,,2026-02-12T08:49:35.000Z
+Movie,mj@music.com,5432,2026-02-12T04:20:36.000Z,6420,700361,The Beastmaster,,2026-02-12T06:07:36.000Z
+Movie,mj@music.com,5432,2026-02-12T19:37:31.000Z,6120,700339,Crying Freeman,,2026-02-12T21:38:18.000Z
+Movie,mj@music.com,5432,2026-02-12T17:58:05.000Z,5520,700371,Bubba Ho-Tep,,2026-02-12T19:30:05.000Z
+Show,sam.altman@chatgpt.com,5432,2026-02-12T04:25:47.000Z,900,100703,Seinfeld - The Little Kicks,,2026-02-12T04:40:47.000Z
+Show,sam.altman@chatgpt.com,5432,2026-02-12T12:14:31.000Z,900,100194,Friends - The One Where No One's Ready,,2026-02-12T12:29:31.000Z
+CultTube,mj@music.com,5432,2026-02-12T13:28:10.000Z,985,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T13:44:35.000Z
+CultTube,mj@music.com,5432,2026-02-12T09:54:53.000Z,596,900012,Cooking with Spices: A Beginner’s Guide,Spiced Up Cooking,2026-02-12T10:13:51.000Z
+CultTube,mj@music.com,5432,2026-02-12T07:47:16.000Z,435,900043,Yoga for Better Sleep,Sleep Wellness,2026-02-12T08:03:04.000Z
+CultTube,mj@music.com,5432,2026-02-12T03:20:44.000Z,605,900004,The Science of Black Holes Explained Simply,Science Simplified,2026-02-12T03:30:49.000Z
+CultTube,mj@music.com,5432,2026-02-12T23:17:03.000Z,639,900027,Fun Science Experiments for Kids,Kids Science Club,2026-02-12T23:27:42.000Z
+CultTube,mj@music.com,5432,2026-02-12T01:13:15.000Z,742,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T01:36:19.000Z
+CultTube,mj@music.com,5432,2026-02-12T13:29:02.000Z,950,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T13:44:52.000Z
+CultTube,mj@music.com,5432,2026-02-12T23:08:26.000Z,886,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T23:30:07.000Z
+CultTube,mj@music.com,5432,2026-02-12T09:14:15.000Z,855,900005,Top 10 Hidden Gems in Tokyo,Tom’s Travels,2026-02-12T09:28:30.000Z
+CultTube,mj@music.com,5432,2026-02-12T13:34:03.000Z,1126,900023,How to Write a Bestselling Novel,Alice’s Writing Room,2026-02-12T13:52:49.000Z
+CultTube,mj@music.com,5432,2026-02-12T09:30:58.000Z,918,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T09:46:16.000Z
+CultTube,mj@music.com,5432,2026-02-12T19:37:54.000Z,1111,900005,Top 10 Hidden Gems in Tokyo,Tom’s Travels,2026-02-12T19:56:25.000Z
+CultTube,mj@music.com,5432,2026-02-12T13:19:18.000Z,1030,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T13:36:28.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T05:46:48.000Z,578,900030,Learning Guitar: Beginner’s Tutorial,Gary’s Guitar Lessons,2026-02-12T05:56:26.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T11:03:52.000Z,760,900020,How to Master Public Speaking,Public Speaking Pro,2026-02-12T11:16:32.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T08:45:03.000Z,1024,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T09:02:07.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T14:18:19.000Z,294,900008,5 Minute Yoga Routine for Beginners,Yoga with Yvonne,2026-02-12T14:25:24.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T07:51:36.000Z,933,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T08:07:09.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T14:18:26.000Z,773,900042,Gardening Tips for Small Spaces,Urban Gardening,2026-02-12T14:31:19.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T13:11:52.000Z,646,900050,Learning to Cook Asian Cuisine,Amy’s Asian Kitchen,2026-02-12T13:26:32.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T20:03:14.000Z,2005,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T21:01:38.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T15:56:34.000Z,830,900045,Tips for Remote Work Efficiency,Remote Work Solutions,2026-02-12T16:10:24.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T14:05:05.000Z,881,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T14:27:30.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T18:50:49.000Z,630,900028,Top 10 Must-Read Books of the Year,Betty’s Book Picks,2026-02-12T19:12:06.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T22:27:12.000Z,1165,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T22:46:37.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T15:57:23.000Z,1058,900021,Vegan Cooking: Delicious Recipes,Valerie’s Vegan Kitchen,2026-02-12T16:25:08.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T12:20:03.000Z,2238,900013,The Evolution of Video Games – A Historical Overview,Gaming History,2026-02-12T12:57:21.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T08:17:22.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T08:51:00.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T08:40:33.000Z,828,900002,How to Survive a Zombie Apocalypse – Top 10 Tips,Survival Central,2026-02-12T08:54:21.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T16:20:13.000Z,956,900018,Building a Custom PC for Gaming,PC Builds,2026-02-12T16:36:09.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T16:54:09.000Z,512,900047,The Ultimate Guide to Coffee Brewing,Carl’s Coffee Corner,2026-02-12T17:02:41.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T14:43:58.000Z,636,900041,The Evolution of Internet Trends,Trend Analysis,2026-02-12T14:54:34.000Z
+CultTube,sam.altman@chatgpt.com,5432,2026-02-12T08:18:00.000Z,1097,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T08:36:17.000Z
+CultTube,rocky@rocky.com,5432,2026-02-12T19:14:40.000Z,2005,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T20:02:59.000Z
+CultTube,rocky@rocky.com,5432,2026-02-12T09:40:35.000Z,960,900011,Ultimate Guide to Street Photography,Phil’s Photography,2026-02-12T09:56:35.000Z
+CultTube,rocky@rocky.com,5432,2026-02-12T05:42:04.000Z,1400,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T06:05:24.000Z
+CultTube,rocky@rocky.com,5432,2026-02-12T14:36:33.000Z,1868,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T15:38:11.000Z
+CultTube,rocky@rocky.com,5432,2026-02-12T18:13:52.000Z,330,900008,5 Minute Yoga Routine for Beginners,Yoga with Yvonne,2026-02-12T18:19:22.000Z
+CultTube,rocky@rocky.com,5432,2026-02-12T17:31:55.000Z,693,900021,Vegan Cooking: Delicious Recipes,Valerie’s Vegan Kitchen,2026-02-12T17:43:28.000Z
+CultTube,rocky@rocky.com,5432,2026-02-12T10:52:45.000Z,1049,900046,Top 10 Space Missions That Changed History,Space Mission Central,2026-02-12T11:10:14.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:34:33.000Z,817,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T22:48:10.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T10:29:32.000Z,1397,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T11:15:06.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:14:51.000Z,764,900041,The Evolution of Internet Trends,Trend Analysis,2026-02-12T09:42:55.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T15:14:42.000Z,800,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T15:28:02.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:58:27.000Z,675,900012,Cooking with Spices: A Beginner’s Guide,Spiced Up Cooking,2026-02-12T21:09:42.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T14:43:56.000Z,965,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T15:00:01.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:15:21.000Z,999,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T19:32:00.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:53:13.000Z,508,900022,The Art of Minimalism: Simplify Your Life,Simple Living,2026-02-12T08:01:41.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T13:27:03.000Z,338,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T13:32:41.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:37:10.000Z,365,900030,Learning Guitar: Beginner’s Tutorial,Gary’s Guitar Lessons,2026-02-12T08:43:15.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T17:10:43.000Z,576,900030,Learning Guitar: Beginner’s Tutorial,Gary’s Guitar Lessons,2026-02-12T17:20:19.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:08:54.000Z,2520,900009,The Best of 80s Music – A Nostalgic Mix,Retro Hits,2026-02-12T07:50:54.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T17:31:35.000Z,622,900042,Gardening Tips for Small Spaces,Urban Gardening,2026-02-12T17:47:54.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T10:37:48.000Z,864,900042,Gardening Tips for Small Spaces,Urban Gardening,2026-02-12T10:52:12.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T23:24:06.000Z,886,900033,Understanding Cryptocurrency and Blockchain,Crypto Insights,2026-02-12T23:38:52.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:53:07.000Z,1871,900031,Exploring Ancient Ruins: A Documentary,Ancient Explorations,2026-02-12T13:42:56.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:50:03.000Z,1284,900040,Exploring National Parks: The Ultimate Guide,National Parks Explorer,2026-02-12T10:11:27.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T23:05:20.000Z,1095,900029,Ultimate Guide to Fitness Training,Fiona’s Fitness,2026-02-12T23:43:43.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:28:51.000Z,630,900028,Top 10 Must-Read Books of the Year,Betty’s Book Picks,2026-02-12T22:46:18.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T03:57:38.000Z,530,900025,A Guide to Mindfulness and Meditation,Zen Zone,2026-02-12T04:06:28.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:37:25.000Z,1130,900046,Top 10 Space Missions That Changed History,Space Mission Central,2026-02-12T08:56:15.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T15:58:08.000Z,1075,900021,Vegan Cooking: Delicious Recipes,Valerie’s Vegan Kitchen,2026-02-12T16:16:03.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T04:54:25.000Z,1327,900024,DIY Solar Panels for Your Home,Green Living,2026-02-12T05:16:32.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T05:29:47.000Z,1114,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T06:07:26.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:22:35.000Z,1146,900048,How to Build a Personal Brand,Bella’s Brand Building,2026-02-12T08:41:41.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:01:51.000Z,733,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T19:14:04.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:13:49.000Z,729,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T09:25:58.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T13:24:08.000Z,978,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T13:40:26.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:51:11.000Z,2666,900009,The Best of 80s Music – A Nostalgic Mix,Retro Hits,2026-02-12T13:35:37.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:15:45.000Z,1183,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T09:35:28.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:53:26.000Z,597,900020,How to Master Public Speaking,Public Speaking Pro,2026-02-12T21:03:23.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:24:14.000Z,965,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T12:51:23.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:08:12.000Z,765,900016,Beginner’s Guide to Digital Painting,Artful Creations,2026-02-12T07:20:57.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T13:05:45.000Z,870,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T13:20:15.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:57:47.000Z,1260,900029,Ultimate Guide to Fitness Training,Fiona’s Fitness,2026-02-12T10:31:26.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T03:40:50.000Z,861,900002,How to Survive a Zombie Apocalypse – Top 10 Tips,Survival Central,2026-02-12T04:05:19.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T04:18:56.000Z,758,900020,How to Master Public Speaking,Public Speaking Pro,2026-02-12T04:37:20.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T18:48:37.000Z,1909,900031,Exploring Ancient Ruins: A Documentary,Ancient Explorations,2026-02-12T19:20:26.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T01:22:15.000Z,1165,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T01:44:30.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:30:32.000Z,2691,900009,The Best of 80s Music – A Nostalgic Mix,Retro Hits,2026-02-12T08:50:21.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:37:07.000Z,1104,900039,Creative Writing: Crafting Engaging Stories,Creative Pen,2026-02-12T21:12:01.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:22:36.000Z,679,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T22:33:55.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T02:41:48.000Z,320,900014,10 Amazing Facts About Space,Alex’s Universe,2026-02-12T02:49:33.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T22:00:23.000Z,297,900008,5 Minute Yoga Routine for Beginners,Yoga with Yvonne,2026-02-12T22:08:19.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:38:16.000Z,870,900006,DIY Home Decor Ideas on a Budget,Carla's Creations,2026-02-12T19:59:00.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T12:19:02.000Z,1084,900003,Exploring the Haunted Mansion of Oldtown,Ghost Adventures,2026-02-12T12:55:57.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T00:46:59.000Z,1036,900018,Building a Custom PC for Gaming,PC Builds,2026-02-12T01:04:15.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T10:37:14.000Z,754,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T10:49:48.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T06:57:06.000Z,988,900015,Daily Vlog: A Week in My Life,Vanessa’s Vlogs,2026-02-12T07:15:58.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T14:45:41.000Z,1030,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T15:16:03.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T01:54:17.000Z,1353,900019,Exploring the Deep Sea: Wonders Beneath,Deep Sea Discoveries,2026-02-12T02:35:14.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T19:15:49.000Z,1375,900017,Historical Mysteries: The Lost City of Atlantis,Mystery History,2026-02-12T19:46:23.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T00:52:32.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T01:12:32.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:22:38.000Z,629,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T09:43:30.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T08:49:41.000Z,511,900047,The Ultimate Guide to Coffee Brewing,Carl’s Coffee Corner,2026-02-12T08:58:12.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T06:58:14.000Z,442,900022,The Art of Minimalism: Simplify Your Life,Simple Living,2026-02-12T07:13:46.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T18:43:10.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T19:16:35.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:12:34.000Z,854,900011,Ultimate Guide to Street Photography,Phil’s Photography,2026-02-12T20:26:48.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T00:23:58.000Z,1314,900024,DIY Solar Panels for Your Home,Green Living,2026-02-12T00:45:52.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T15:29:27.000Z,1030,900038,The Secrets of Successful Investing,Wealth Strategies,2026-02-12T15:46:37.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T07:06:25.000Z,768,900011,Ultimate Guide to Street Photography,Phil’s Photography,2026-02-12T07:19:13.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T05:44:23.000Z,1200,900036,The Psychology of Happiness,Mindful Moments,2026-02-12T06:04:23.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T20:19:01.000Z,664,900001,Ultimate Pancake Recipe – Fluffy & Delicious!,Jamie's Kitchen,2026-02-12T20:30:05.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T17:36:30.000Z,815,900025,A Guide to Mindfulness and Meditation,Zen Zone,2026-02-12T17:50:05.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T02:18:10.000Z,1321,900035,DIY Home Renovation Projects,Rachel’s Renovations,2026-02-12T02:40:11.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T09:44:27.000Z,1208,900024,DIY Solar Panels for Your Home,Green Living,2026-02-12T10:04:35.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T02:45:29.000Z,695,900037,Learning a New Language: Tips and Tricks,Polyglot Practices,2026-02-12T03:02:15.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T18:21:46.000Z,1105,900032,How to Create Stunning Landscape Photography,Laura’s Landscapes,2026-02-12T18:40:11.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T03:17:31.000Z,587,900004,The Science of Black Holes Explained Simply,Science Simplified,2026-02-12T03:33:46.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T16:32:26.000Z,697,900034,Cooking Traditional Italian Dishes,Isabella’s Italian Kitchen,2026-02-12T16:56:24.000Z
+CultTube,cristiano.ronaldo@realmadrid.es,5432,2026-02-12T04:51:05.000Z,1298,900046,Top 10 Space Missions That Changed History,Space Mission Central,2026-02-12T05:12:43.000Z
 Show,mj@music.com,5432,2026-02-12T14:24:51.000Z,1380,100696,Seinfeld - The Bottle Deposit,,2026-02-12T15:12:34.000Z
 Show,mj@music.com,5432,2026-02-12T00:09:45.000Z,1440,100043,The Wonder Years - The Unnatural,,2026-02-12T00:52:40.000Z
 Show,mj@music.com,5432,2026-02-12T00:55:05.000Z,1680,100027,The Wonder Years - Mom Wars,,2026-02-12T01:23:05.000Z
@@ -193,11 +203,6 @@ Show,sam.altman@chatgpt.com,5432,2026-02-12T18:01:19.000Z,3420,100294,House of C
 Show,sam.altman@chatgpt.com,5432,2026-02-12T03:50:15.000Z,3060,100370,Game of Thrones - Walk of Punishment,,2026-02-12T04:53:50.000Z
 Show,sam.altman@chatgpt.com,5432,2026-02-12T02:57:15.000Z,1200,100578,Seinfeld - The Heart Attack,,2026-02-12T03:28:27.000Z
 Show,sam.altman@chatgpt.com,5432,2026-02-12T04:21:16.000Z,4020,100146,Westworld - Well Enough Alone,,2026-02-12T05:28:16.000Z
-Show,sam.altman@chatgpt.com,5432,2026-02-12T01:30:55.000Z,1260,100157,Friends - The One with the Butt,,2026-02-12T02:07:11.000Z
-Show,sam.altman@chatgpt.com,5432,2026-02-12T21:07:46.000Z,2640,100433,Lost - Hearts and Minds,,2026-02-12T21:51:46.000Z
-Show,sam.altman@chatgpt.com,5432,2026-02-12T02:35:50.000Z,2040,100408,Game of Thrones - Dragonstone,,2026-02-12T03:09:50.000Z
-Show,sam.altman@chatgpt.com,5432,2026-02-12T04:25:47.000Z,900,100703,Seinfeld - The Little Kicks,,2026-02-12T04:40:47.000Z
-Show,sam.altman@chatgpt.com,5432,2026-02-12T12:14:31.000Z,900,100194,Friends - The One Where No One's Ready,,2026-02-12T12:29:31.000Z
 Show,sam.altman@chatgpt.com,5432,2026-02-12T18:05:50.000Z,3900,100137,Westworld - Parce Domine,,2026-02-12T19:10:50.000Z
 Show,sam.altman@chatgpt.com,5432,2026-02-12T23:31:49.000Z,1320,100733,Seinfeld - The Reverse Peephole,,2026-02-12T23:53:49.000Z
 Show,sam.altman@chatgpt.com,5432,2026-02-12T03:16:53.000Z,1380,100634,Seinfeld - The Bris,,2026-02-12T03:39:53.000Z
@@ -531,11 +536,6 @@ Movie,mj@music.com,5432,2026-02-12T08:28:32.000Z,6840,700038,The Holy Mountain,,
 Movie,mj@music.com,5432,2026-02-12T21:53:27.000Z,5400,700075,Monty Python's Life of Brian,,2026-02-13T00:33:59.000Z
 Movie,mj@music.com,5432,2026-02-12T22:58:25.000Z,5700,700092,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,,2026-02-13T00:33:25.000Z
 Movie,mj@music.com,5432,2026-02-12T18:48:53.000Z,1980,700367,Blade,,2026-02-12T19:46:13.000Z
-Movie,mj@music.com,5432,2026-02-12T08:48:38.000Z,6360,700215,Young Frankenstein,,2026-02-12T10:34:38.000Z
-Movie,mj@music.com,5432,2026-02-12T06:19:28.000Z,6420,700302,Withnail & I,,2026-02-12T08:49:35.000Z
-Movie,mj@music.com,5432,2026-02-12T04:20:36.000Z,6420,700361,The Beastmaster,,2026-02-12T06:07:36.000Z
-Movie,mj@music.com,5432,2026-02-12T19:37:31.000Z,6120,700339,Crying Freeman,,2026-02-12T21:38:18.000Z
-Movie,mj@music.com,5432,2026-02-12T17:58:05.000Z,5520,700371,Bubba Ho-Tep,,2026-02-12T19:30:05.000Z
 Movie,mj@music.com,5432,2026-02-12T02:14:53.000Z,5940,700340,Beyond the Valley of the Dolls,,2026-02-12T03:53:53.000Z
 Movie,mj@music.com,5432,2026-02-12T22:47:23.000Z,3540,700082,Trainspotting,,2026-02-12T23:46:23.000Z
 Movie,mj@music.com,5432,2026-02-12T00:15:45.000Z,6120,700253,Blood for Dracula,,2026-02-12T01:57:45.000Z

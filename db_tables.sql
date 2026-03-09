@@ -34,7 +34,6 @@ CREATE TABLE public.imdb_movie_list3 (
 	CONSTRAINT imdb_movie_list3_pk PRIMARY KEY (movie_id)
 );
 
-
 CREATE TABLE public.youtube_video_list2 (
 	title varchar(256) NULL,
 	uploader varchar(256) NULL,
@@ -43,7 +42,8 @@ CREATE TABLE public.youtube_video_list2 (
 	"time" varchar(256) NULL,
 	upload_date varchar(256) NULL,
 	youtube_id int4 NULL,
-	genres varchar(256) NULL
+	genres varchar(256) NULL,
+	CONSTRAINT youtube_video_list_pk PRIMARY KEY (youtube_id)
 );
 
 
