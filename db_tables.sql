@@ -61,3 +61,9 @@ CREATE TABLE public.provisioning_action (
 	"options" varchar(256) NULL,
 	CONSTRAINT provisioning_action_pk PRIMARY KEY (template)
 );
+
+CREATE TABLE public.excessive_use (
+	email varchar(256) NULL,
+	"date" date NULL,
+	units int4 NULL
+);
