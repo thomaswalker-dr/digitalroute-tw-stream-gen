@@ -1,0 +1,273 @@
+{
+  "name": "Cloud Service Provider",
+  "solution": "Thomas",
+  "workflow": [
+    {
+      "id": "load_data_from_aws_s3",
+      "name": "Load Data from AWS S3",
+      "type": "S3CSVInput",
+      "config": {
+        "accessKey": "${thomas/aws/access_key}",
+        "secretKey": "${thomas/aws/secret_key}",
+        "bucket": "${thomas/aws/hyperscaler_bucket}",
+        "inputFolder": "${thomas/aws/hyperscaler_folder}",
+        "applyNameSuffix": false,
+        "hasHeader": true
+      },
+      "next": ["deduplicate_records"]
+    },
+    {
+      "id": "deduplicate_records",
+      "name": "Deduplicate Records",
+      "type": "Deduplication",
+      "config": {
+        "keys": [
+          "Usage Record Type",
+          "Account Num",
+          "Quantity",
+          "UOM",
+          "Start Date-Time",
+          "End Date-Time",
+          "Line Item Type",
+          "ProductCode",
+          "UsageType",
+          "Destination",
+          "ProductType",
+          "Resource ",
+          "Entity",
+          "Location",
+          "pricingUnit",
+          "Currency",
+          "Tag"
+        ],
+        "retentionWindow": "14d",
+        "onDuplicate": "discard"
+      },
+      "next": ["normalize_field_names"]
+    },
+    {
+      "id": "normalize_field_names",
+      "name": "Normalize Field Names",
+      "type": "FieldMapper",
+      "config": {
+        "fieldMappings": [
+          { "from": "Usage Record Type", "to": "usageRecordType" },
+          { "from": "Account Num", "to": "accountNum" },
+          { "from": "Quantity", "to": "quantity" },
+          { "from": "UOM", "to": "uom" },
+          { "from": "Start Date-Time", "to": "startDateTime" },
+          { "from": "End Date-Time", "to": "endDateTime" },
+          { "from": "Line Item Type", "to": "lineItemType" },
+          { "from": "ProductCode", "to": "productCode" },
+          { "from": "UsageType", "to": "usageType" },
+          { "from": "Destination", "to": "destination" },
+          { "from": "ProductType", "to": "productType" },
+          { "from": "Resource ", "to": "resource" },
+          { "from": "Entity", "to": "entity" },
+          { "from": "Location", "to": "location" },
+          { "from": "pricingUnit", "to": "pricingUnit" },
+          { "from": "Currency", "to": "currency" },
+          { "from": "Tag", "to": "tag" }
+        ]
+      },
+      "next": ["parse_service_identifier"]
+    },
+    {
+      "id": "parse_service_identifier",
+      "name": "Parse Service Identifier",
+      "type": "Expression",
+      "config": {
+        "fields": [
+          {
+            "name": "serviceIdentifier",
+            "expression": "tag != null && tag.contains('serviceInstanceId=') ? tag.split('serviceInstanceId=')[1].split(',')[0].trim() : ''"
+          }
+        ]
+      },
+      "next": ["validate"]
+    },
+    {
+      "id": "validate",
+      "name": "Validate",
+      "type": "Validator",
+      "config": {
+        "rules": [
+          {
+            "field": "startDateTime",
+            "type": "datetime",
+            "format": "ISO8601"
+          },
+          {
+            "field": "endDateTime",
+            "type": "datetime",
+            "format": "ISO8601"
+          },
+          {
+            "field": "uom",
+            "type": "enum",
+            "values": [
+              "MB",
+              "GB",
+              "Request",
+              "LCU-Hours",
+              "Hrs",
+              "Requests",
+              "Alarms",
+              "GB-Mo",
+              "Keys",
+              "BytesHours",
+              "Bytes",
+              "GBSecs",
+              "Key",
+              "Seconds"
+            ]
+          }
+        ]
+      },
+      "next": ["database_query"]
+    },
+    {
+      "id": "database_query",
+      "name": "Database Query",
+      "type": "DatabaseQuery",
+      "config": {
+        "driver": "postgresql",
+        "database": "${thomas/postgres/database}",
+        "hostname": "${thomas/postgres/hostname}",
+        "port": "${thomas/postgres/port}",
+        "username": "${thomas/postgres/username}",
+        "password": "${thomas/postgres/password}",
+        "query": "SELECT * FROM account_service_lookup WHERE account_num = {accountNum} AND product_code = {productCode}"
+      },
+      "next": ["check_row_returned"]
+    },
+    {
+      "id": "check_row_returned",
+      "name": "Check Row Returned",
+      "type": "Filter",
+      "config": {
+        "condition": "databaseResult.rowCount > 0"
+      },
+      "next": ["create_timeout"]
+    },
+    {
+      "id": "create_timeout",
+      "name": "Create Timeout",
+      "type": "DateAgent",
+      "config": {
+        "fields": [
+          {
+            "name": "timeout",
+            "expression": "tomorrow().atTime(2, 0, 0)"
+          }
+        ]
+      },
+      "next": ["check_bytes_uom"]
+    },
+    {
+      "id": "check_bytes_uom",
+      "name": "Check Bytes UOM",
+      "type": "Expression",
+      "config": {
+        "fields": [
+          {
+            "name": "quantity",
+            "expression": "uom == 'Bytes' ? quantity / 1073741824 : quantity"
+          },
+          {
+            "name": "uom",
+            "expression": "uom == 'Bytes' ? 'Gb' : uom"
+          }
+        ]
+      },
+      "next": ["split_records"]
+    },
+    {
+      "id": "split_records",
+      "name": "Split Records",
+      "type": "Distributor",
+      "config": {
+        "mode": "copy"
+      },
+      "next": ["invoice_aggregation", "reporting_aggregation"]
+    },
+    {
+      "id": "invoice_aggregation",
+      "name": "Invoice Aggregation",
+      "type": "Aggregation",
+      "config": {
+        "keys": ["accountNum", "productCode", "usageType", "productType", "uom"],
+        "period": "day",
+        "metrics": [
+          {
+            "name": "quantity",
+            "function": "sum",
+            "field": "quantity"
+          },
+          {
+            "name": "recordCount",
+            "function": "count"
+          },
+          {
+            "name": "startDateTimeMin",
+            "function": "min",
+            "field": "startDateTime"
+          },
+          {
+            "name": "startDateTimeMax",
+            "function": "max",
+            "field": "startDateTime"
+          }
+        ],
+        "flush": {
+          "type": "timestamp",
+          "field": "timeout"
+        }
+      },
+      "next": ["invoice_s3_output"]
+    },
+    {
+      "id": "invoice_s3_output",
+      "name": "Invoice S3 Output",
+      "type": "S3CSVOutput",
+      "config": {
+        "accessKey": "${thomas/aws/access_key}",
+        "secretKey": "${thomas/aws/secret_key}",
+        "bucket": "${thomas/aws/hyperscaler_bucket}",
+        "outputFolder": "${thomas/aws/billing}"
+      }
+    },
+    {
+      "id": "reporting_aggregation",
+      "name": "Reporting Aggregation",
+      "type": "Aggregation",
+      "config": {
+        "keys": ["location", "productCode", "usageType", "uom"],
+        "period": "day",
+        "metrics": [
+          {
+            "name": "quantity",
+            "function": "sum",
+            "field": "quantity"
+          }
+        ],
+        "flush": {
+          "type": "timestamp",
+          "field": "timeout"
+        }
+      },
+      "next": ["reporting_s3_output"]
+    },
+    {
+      "id": "reporting_s3_output",
+      "name": "Reporting S3 Output",
+      "type": "S3CSVOutput",
+      "config": {
+        "accessKey": "${thomas/aws/access_key}",
+        "secretKey": "${thomas/aws/secret_key}",
+        "bucket": "${thomas/aws/hyperscaler_bucket}",
+        "outputFolder": "${thomas/aws/reporting}"
+      }
+    }
+  ]
+}
